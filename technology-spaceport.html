@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+
+<body class="technology">
+  <div id="mobile-nav" class="mobile-nav">
+    <button class="mobile-nav-closeBtn" id="mobile-nav-closeBtn">
+      <img src="./assets/shared/icon-close.svg" alt="">
+    </button>
+    <nav class="mobile-nav-nav">
+      <a href="/"><span>00</span>Home</a>
+      <a href="/destination-moon.html"><span>01</span>Destination</a>
+      <a href="/crew-commander.html"><span>02</span>Crew</a>
+      <a href="/technology-spaceport.html" class="mobile-nav-nav_active"><span>03</span>Technology</a>
+    </nav>
+  </div>
+
+  <header class="header">
+    <a href="/" class="header-logo">
+      <img src="./assets/shared/logo.svg" alt="logotype">
+    </a>
+    <div class="header-line"></div>
+    <nav class="header-header-nav">
+      <a href="/"><span>00</span>Home</a>
+      <a href="/destination-moon.html"><span>01</span> Destination</a>
+      <a href="/crew-commander.html"><span>02</span> Crew</a>
+      <a href="/technology-spaceport.html" class="header-nav_active-link"><span>03</span> Technology</a>
+    </nav>
+    <button class="header-menuBtn" id="header-menuBtn">
+      <img src="./assets/shared/icon-hamburger.svg" alt="">
+    </button>
+  </header>
+
+  <section class="technology-content">
+    <h5 class="technology-content_h5"><span>03</span>Space launch 101</h5>
+    <div class="technology-content-container">
+      <div class="technology-content-section-information-buttons">
+        <button data-nr="0" class="technology-content-section-information-buttons_btn">1</button>
+        <button data-nr="1" class="technology-content-section-information-buttons_btn">2</button>
+        <button data-nr="2" class="technology-content-section-information-buttons_btn">3</button>
+      </div>
+      <div class="technology-content-section">
+        <div class="technology-content-section-information">
+          <h4 class="technology-content-section-information_text">The terminology...</h4>
+          <h3 id="technologyInfo" class="technology-content-section-information_info"></h3>
+          <p id="technologyDesc" class="technology-content-section-information_paragraph"></p>
+        </div>
+      </div>
+      <div id="technologyImg" class="technology-content-section_image"></div>
+    </div>
+  </section>
+</body>
+
+</html>

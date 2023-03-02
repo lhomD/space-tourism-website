@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+
+<body class="crew">
+  <div id="mobile-nav" class="mobile-nav">
+    <button class="mobile-nav-closeBtn" id="mobile-nav-closeBtn">
+      <img src="./assets/shared/icon-close.svg" alt="">
+    </button>
+    <nav class="mobile-nav-nav">
+      <a href="/"><span>00</span>Home</a>
+      <a href="/destination-moon.html"><span>01</span>Destination</a>
+      <a href="/crew-commander.html" class="mobile-nav-nav_active"><span>02</span>Crew</a>
+      <a href="/technology-spaceport.html"><span>03</span>Technology</a>
+    </nav>
+  </div>
+
+  <header class="header">
+    <a href="/" class="header-logo">
+      <img src="./assets/shared/logo.svg" alt="logotype">
+    </a>
+    <div class="header-line"></div>
+    <nav class="header-header-nav">
+      <a href="/"><span>00</span>Home</a>
+      <a href="/destination-moon.html"><span>01</span> Destination</a>
+      <a href="/crew-commander.html" class="header-nav_active-link"><span>02</span> Crew</a>
+      <a href="/technology-spaceport.html"><span>03</span> Technology</a>
+    </nav>
+    <button class="header-menuBtn" id="header-menuBtn">
+      <img src="./assets/shared/icon-hamburger.svg" alt="">
+    </button>
+  </header>
+
+  <section class="crew-content">
+    <h5 class="crew-content_h5"><span>02</span> Meet your crew</h5>
+    <div class="crew-content-section">
+      <div class="crew-content-section-information">
+        <h4 id="crewPosition" class="crew-content-section-information_position">Commander </h4>
+        <h3 id="crewName" class="crew-content-section-information_name"></h3>
+        <p id="crewDesc" class="crew-content-section-information_paragraph"></p>
+        <div class="crew-content-section-information-buttons">
+          <button data-nr="0" class="crew-content-section-information-buttons_btn"></button>
+          <button data-nr="1" class="crew-content-section-information-buttons_btn"></button>
+          <button data-nr="2" class="crew-content-section-information-buttons_btn"></button>
+          <button data-nr="3" class="crew-content-section-information-buttons_btn"></button>
+        </div>
+      </div>
+      <img src="" alt="" id="crewImg" class="crew-content-section_image">
+    </div>
+  </section>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+
+<body class="destination">
+  <div id="mobile-nav" class="mobile-nav">
+    <button class="mobile-nav-closeBtn" id="mobile-nav-closeBtn">
+      <img src="./assets/shared/icon-close.svg" alt="">
+    </button>
+    <nav class="mobile-nav-nav">
+      <a href="/"><span>00</span>Home</a>
+      <a href="/destination-moon.html" class="mobile-nav-nav_active"><span>01</span>Destination</a>
+      <a href="/crew-commander.html"><span>02</span>Crew</a>
+      <a href="/technology-spaceport.html"><span>03</span>Technology</a>
+    </nav>
+  </div>
+
+  <header class="header">
+    <a href="/" class="header-logo">
+      <img src="./assets/shared/logo.svg" alt="logotype">
+    </a>
+    <div class="header-line"></div>
+    <nav class="header-header-nav">
+      <a href="/"><span>00</span>Home</a>
+      <a href="/destination-moon.html" class="header-nav_active-link"><span>01</span> Destination</a>
+      <a href="/crew-commander.html"><span>02</span> Crew</a>
+      <a href="/technology-spaceport.html"><span>03</span> Technology</a>
+    </nav>
+    <button class="header-menuBtn" id="header-menuBtn">
+      <img src="./assets/shared/icon-hamburger.svg" alt="">
+    </button>
+  </header>
+  <section class="destination-content">
+    <h5 class="destination-content_h5"><span>01</span> Pick your destination</h5>
+    <div class="destination-content-section">
+      <img src="" alt="" id="destinationImg" class="destination-content-section_image">
+      <div class="destination-content-section-information">
+        <div class="destination-content-section-information-buttons">
+          <button class="destination-content-section-information-buttons_btn" data-nr="0">moon</button>
+          <button data-nr="1" class="destination-content-section-information-buttons_btn">mars</button>
+          <button data-nr="2" class="destination-content-section-information-buttons_btn">europa</button>
+          <button data-nr="3" class="destination-content-section-information-buttons_btn">titan</button>
+        </div>
+        <h1 id="destinationTitel" class="destination-content-section-information_titel"></h1>
+        <p id="destinationDesc" class="destination-content-section-information_paragraph"></p>
+        <div class="destination-content-section-information-info">
+          <div class="destination-content-section-information-info-distanse">
+            <span class="destination-content-section-information-info-distanse_text">Avg. distance</span>
+            <h5 id="distance" class="destination-content-section-information-info-distanse_number">384,400
+            </h5>
+          </div>
+          <div class="destination-content-section-information-info-time">
+            <span class="destination-content-section-information-info-time_text">Est. travel time</span>
+            <h5 id="travelTime" class="destination-content-section-information-info-time_number">3 days</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
