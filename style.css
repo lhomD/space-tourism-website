@@ -20,11 +20,7 @@ body {
     background-size: cover;
     font-size: 1.6rem;
     height: 100vh;
-    overflow: hidden;
-}
-
-.home {
-    background-image: url("./assets/home/background-home-desktop.jpg");
+    overflow: scroll;
 }
 /* Header and Navigation */
 .header {
@@ -93,6 +89,9 @@ a.header-nav_active-link:hover:before {
     display: none;
 }
 /* Main section home page */
+.home {
+    background-image: url("./assets/home/background-home-desktop.jpg");
+}
 .home-content {
     width: 100%;
     max-width: 1198px;
@@ -145,7 +144,6 @@ p {
     transition: background-color ease-in-out 300ms;
     cursor: pointer;
 }
-
 .home-content-content_btn a {
     text-decoration: none;
     font-family: "Bellefair";
@@ -381,7 +379,7 @@ p {
 }
 /* technology page */
 .technology {
-    background-image: url();
+    background-image: url("./assets/technology/background-technology-desktop.jpg");
 }
 .technology-content {
     margin: 7.6rem auto 0;
@@ -531,7 +529,6 @@ p {
     /* Destination Page */
     .destination {
         background-image: url("./assets/destination/background-destination-tablet.jpg");
-        overflow-y: scroll;
     }
     .destination-content {
         margin-top: 4rem;
@@ -572,7 +569,6 @@ p {
     /* Crew Page */
     .crew {
         background-image: url("./assets/crew/background-crew-tablet.jpg");
-        overflow-y: scroll;
     }
     .crew-content {
         margin-top: 4rem;
@@ -622,7 +618,6 @@ p {
     /* technology page */
     .technology {
         background-image: url("./assets/technology/background-technology-tablet.jpg");
-        overflow-y: scroll;
     }
     .technology-content {
         margin: 4rem auto 0;
@@ -746,7 +741,6 @@ p {
     /* Destination and Crew Page */
     .destination {
         background-image: url("./assets/destination/background-destination-mobile.jpg");
-        overflow-y: scroll;
     }
     .destination-content {
         margin-top: 1rem;
@@ -797,7 +791,6 @@ p {
     /* Crew Page */
     .crew {
         background-image: url("./assets/crew/background-crew-mobile.jpg");
-        overflow-y: scroll;
     }
     .crew-content {
         margin-top: 1rem;
@@ -844,7 +837,6 @@ p {
     /* technology page */
     .technology {
         background-image: url("./assets/technology/background-technology-mobile.jpg");
-        overflow-y: scroll;
     }
     .technology-content {
         margin: 4rem auto 0;
