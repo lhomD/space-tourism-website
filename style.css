@@ -531,6 +531,7 @@ p {
     /* Destination Page */
     .destination {
         background-image: url("./assets/destination/background-destination-tablet.jpg");
+        overflow-y: scroll;
     }
     .destination-content {
         margin-top: 4rem;
@@ -571,6 +572,7 @@ p {
     /* Crew Page */
     .crew {
         background-image: url("./assets/crew/background-crew-tablet.jpg");
+        overflow-y: scroll;
     }
     .crew-content {
         margin-top: 4rem;
@@ -620,6 +622,7 @@ p {
     /* technology page */
     .technology {
         background-image: url("./assets/technology/background-technology-tablet.jpg");
+        overflow-y: scroll;
     }
     .technology-content {
         margin: 4rem auto 0;
@@ -789,6 +792,7 @@ p {
     .destination-content-section-information-info {
         flex-direction: column;
         gap: 3.2rem;
+        text-align: center;
     }
     /* Crew Page */
     .crew {
